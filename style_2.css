@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+#cv-body {
+    background-color: #65a6fa;
+}
+h1 {
+    color: white;
+    width: 20%;
+    text-align: center;
+    padding-top: 50px;
+    float: left;
+}
+#right-column{
+    background-color: white;
+    display: inline-block;
+    width: 77%;
+    padding-left: 3%;
+}
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+ul li {
+    margin: 10px 20px 10px 0;
+}
+ul li b {
+    display: block;
+}
+.one-line li {
+    display: inline-block;
+}
+.one-line li b {
+    display: inline;
+}
