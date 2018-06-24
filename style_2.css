@@ -11,6 +11,14 @@ h1 {
     padding-top: 50px;
     float: left;
 }
+.action-btn {
+    background: #f0f0f0;
+    padding: 10px 0;
+    color: #65a6fa;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
 #right-column{
     background-color: white;
     display: inline-block;
@@ -32,4 +40,10 @@ ul li b {
 }
 .one-line li b {
     display: inline;
+}
+.invisible {
+    visibility: hidden;
+}
+.visible {
+    visibility: visible;
 }

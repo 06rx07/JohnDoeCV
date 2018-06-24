@@ -7,7 +7,12 @@
     </head>
     <body>
         <div id="cv-body">
-            <h1>John Doe CV</h1>
+            <h1>
+                John Doe CV
+                <div class="action-btn" id="show-hobby-btn" onclick="toggleHobby()">
+                    Toggle Hobby!
+                </div>
+            </h1>
             <div id="right-column">
                 <section>
                     <h2>Personal Information</h2>
@@ -70,7 +75,20 @@
                         </li>
                     </ul>
                 </section>
+                <section id="hobby" class="invisible">
+                    <h2>Hobby</h2>
+                    <ul class="one-line">
+                        <li>
+                            <b>Travel</b>
+                        </li>
+                        <li>
+                            <b>Coding</b>
+                        </li>
+                    </ul>
+                </section>
             </div>
         </div>
+
+        <script src="./exercise.js"></script>
     </body>
 </html>
